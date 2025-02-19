@@ -1,2 +1,2 @@
 # Dotfiles
-## Better organization system for system configuration files
+## Better organization system for configuration files
