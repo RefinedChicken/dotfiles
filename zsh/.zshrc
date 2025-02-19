@@ -29,6 +29,7 @@ autoload -Uz compinit && compinit
 zinit cdreplay -q
 
 # Oh My Posh prompt
+export PATH=$PATH:/root/.local/bin
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 # 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/atomic-tokyo.json)"
 #	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/default.yaml)"
@@ -62,5 +63,5 @@ alias e='exit'
 alias tree='tree -a'
 
 # Shell integrations
-eval "$(fzf --zsh)"
+# eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
