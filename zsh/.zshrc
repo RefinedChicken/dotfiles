@@ -65,3 +65,5 @@ alias tree='tree -a'
 # Shell integrations
 # eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+clear
+neofetch
