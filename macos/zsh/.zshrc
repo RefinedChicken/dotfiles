@@ -33,9 +33,10 @@ zinit cdreplay -q
 
 # Oh My Posh prompt
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
- 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+# 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 # 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/atomic-tokyo.json)"
 #	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/default.yaml)"
+	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/joray.omp.json)"
 fi
 
 # History
@@ -65,6 +66,7 @@ alias y='yazi'
 alias n='nvim'
 alias e='exit'
 alias tree='tree -a'
+alias ez='exec zsh'
 
 # Shell integrations
 eval "$(fzf --zsh)"
