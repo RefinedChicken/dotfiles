@@ -1,6 +1,5 @@
-{
-  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
-  "palette":
+/*
+"palette":
   {
     "background": "#262427",
     "foreground": "#FCFCFA",
@@ -24,6 +23,9 @@
     "palette_14": "#BAEBF6",
     "palette_15": "#FCFCFA"
   },
+*/
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "transient_prompt":
   {
     "template": "<#FCFCFA>❯</><#FCFCFA>❯</><#FCFCFA>❯</> ",
