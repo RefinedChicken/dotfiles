@@ -7,7 +7,7 @@ apt upgrade -y
 
 # Install apt packages
 echo "Installing apt packages..."
-apt install -y curl wget git gh neovim neofetch zoxide zsh bat tree unzip eza btop
+apt install -y curl wget git gh neovim neofetch zoxide zsh bat tree unzip eza btop fzf
 
 # Initializing zsh
 chsh -s $(which zsh)
