@@ -58,15 +58,20 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
-alias lah='ls -lah'
+alias ls='eza -1 -l -a -h -M -t modified -Z'
+alias ll='eza -1 -l -a -h -M -t modified -Z'
+alias l='eza -1 -l -a -h -M -t modified -Z'
+alias la='eza -1 -l -a -h -M -t modified -Z'
+alias lah='eza -1 -l -a -h -M -t modified -Z'
 alias c='clear'
 alias cat='bat'
-alias y='yazi'
+alias e='yazi'
 alias n='nvim'
-alias e='exit'
+alias q='exit'
 alias tree='tree -a'
+alias t='tree -a'
 alias ez='exec zsh'
+alias top='btop -u 1000'
 
 # Shell integrations
 eval "$(fzf --zsh)"
