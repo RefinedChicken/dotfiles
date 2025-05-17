@@ -7,7 +7,7 @@ apt upgrade -y
 
 # Install apt packages
 echo "Installing apt packages..."
-apt install -y curl wget git gh neovim neofetch zoxide zsh bat tree unzip btop fzf net-tools
+apt install -y curl wget git gh neovim neofetch zoxide zsh bat tree unzip btop fzf net-tools gpg
 
 # Install eza
 mkdir -p /etc/apt/keyrings
