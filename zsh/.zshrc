@@ -66,7 +66,7 @@ alias q='exit'
 alias tree='tree -a'
 alias t='tree -a'
 alias ez='exec zsh'
-alias top='btop -u 1000'
+alias top='btop -u 1000 --utf-force'
 
 # Shell integrations
 # eval "$(fzf --zsh)"
