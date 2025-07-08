@@ -72,4 +72,4 @@ alias top='btop -u 1000 --utf-force'
 # eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 clear
-neofetch
+fastfetch
