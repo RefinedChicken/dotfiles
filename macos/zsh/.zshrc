@@ -17,7 +17,6 @@ source "${ZINIT_HOME}/zinit.zsh"
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
-zinit light fdellwing/zsh-bat
 zinit light Aloxaf/fzf-tab
 
 # Add in snippets
@@ -33,9 +32,6 @@ zinit cdreplay -q
 
 # Oh My Posh prompt
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-# 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-# 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/atomic-tokyo.json)"
-#	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/default.yaml)"
 	eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/joray.omp.json)"
 fi
 
@@ -63,14 +59,11 @@ alias ll='eza -1 -l -a -M -Z --hyperlink'
 alias l='eza -a --hyperlink'
 alias la='eza -1 -l -a -M -Z --hyperlink'
 alias c='clear'
-alias cat='bat -P'
 alias e='yazi'
 alias n='nvim'
 alias q='exit'
-alias tree='tree -a'
-alias t='tree -a'
 alias ez='exec zsh'
-alias top='btop -u 1000'
+alias less='less -R'
 
 # Shell integrations
 eval "$(fzf --zsh)"
